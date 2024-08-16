@@ -1,0 +1,93 @@
+export const data = [
+  {
+    image: '/images/shoes/shoe-1.jpg',
+    title: 'Shoes',
+  },
+  {
+    image: '/images/suits/suit-2.jpg',
+    title: 'Suits',
+  },
+  {
+    image: '/images/office-shirt/shirt (1).jpg',
+    title: 'Shirts',
+  },
+  {
+    image: '/images/pants/kachi-1.jpg',
+    title: 'Pants',
+  },
+];
+
+export const products = [
+  {
+    image: '/images/shoes/shoe-2.jpg',
+    title: 'Leather Shoe',
+    description: 'A stylish brown-balck shoe',
+    price: 'UGX 190,000',
+    otherPrice: 'UGX 380,000',
+    type: 'DISCOUNTED',
+    typeValue: '-50%',
+  },
+  {
+    image: '/images/dress/dress-1.jpg',
+    title: 'Party dress',
+    description: 'Dark-reddish party dress',
+    price: 'UGX 150,000',
+    otherPrice: 'UGX 375,000',
+    type: 'DISCOUNTED',
+    typeValue: '-40%',
+  },
+  {
+    image: '/images/flat-shoes/sandals-1.jpg',
+    title: 'Sandals',
+    description: 'Leisure duty sandals',
+    price: 'UGX 65,000',
+    otherPrice: '',
+    type: 'NEW',
+    typeValue: 'NEW',
+  },
+  {
+    image: '/images/checked-shirt/checked-shirt1.jpg',
+    title: 'Checked Shirts',
+    description: 'A leisure stylish shirt',
+    price: 'UGX 60,000',
+    otherPrice: '',
+    type: 'NEW',
+    typeValue: 'NEW',
+  },
+  {
+    image: '/images/pants/pants1.jpg',
+    title: 'Pants',
+    description: 'Free-style pants',
+    price: 'UGX 80,000',
+    otherPrice: '',
+    type: 'NORMAL',
+    typeValue: '',
+  },
+  {
+    image: '/images/kaftan-2.jpg',
+    title: 'Kaftan suit',
+    description: 'Luxurius kaftan suit made just for you',
+    price: 'UGX 255,000',
+    otherPrice: 'UGX 637,500',
+    type: 'DISCOUNTED',
+    typeValue: '-40%',
+  },
+  {
+    image: '/images/suits/suit17.jpg',
+    title: 'Wedding Suit',
+    description: 'Luxurius wedding suit suited for wedding',
+    price: 'UGX 450,000',
+    otherPrice: '',
+    type: 'NEW',
+    typeValue: 'NEW',
+  },
+  {
+    image: '/images/leather-belt-1.jpg',
+    title: 'Leather belt',
+    description: 'Leather belts are just suited for you',
+    price: 'UGX 30,000',
+    otherPrice: 'UGX 40,000',
+    type: 'DISCOUNTED',
+    typeValue: '-70%',
+  },
+];
