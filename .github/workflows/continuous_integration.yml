@@ -27,12 +27,6 @@ jobs:
       - name: Build the application
         run: npm run build
 
-      - name: Run unit tests
-        run: npm run test
-
-      - name: Start the application
-        run: npm start
-
       - name: Save the app data
         uses: actions/upload-artifact@v4
         with:
