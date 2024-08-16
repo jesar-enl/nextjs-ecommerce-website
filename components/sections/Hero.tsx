@@ -1,5 +1,6 @@
 import * as React from 'react';
-import MainButton from '../common/MainButton';
+// import MainButton from '../common/MainButton';
+import { Button } from '../ui/button';
 
 export default function Hero() {
   return (
@@ -15,7 +16,12 @@ export default function Hero() {
           Check out the new items in stock by browsing through the categories
           below.
         </p>
-        <MainButton text={'BUY NOW'} classes="font-bold w-[222px]" />
+        <Button
+          className="bg-custom-primary text-white shadow-xl select-none rounded-[0px] hover:opacity-90"
+        >
+          BUY NOW
+        </Button>
+        {/* <MainButton text={''} classes="font-bold w-[222px]" /> */}
       </div>
     </section>
   );
